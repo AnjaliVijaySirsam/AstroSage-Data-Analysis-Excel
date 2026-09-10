@@ -1,6 +1,6 @@
 # AstroSage-Data-Analysis-Excel
 
-Project Overview
+## Project Overview
 
 AstroSage Call Center Performance Analysis is a business intelligence project focused on analysing customer interactions, revenue, operational costs, customer satisfaction, consultant performance, and workforce utilization.
 
@@ -8,7 +8,7 @@ The project analyses 28,027 customer interaction records across 35+ business att
 
 The objective was to understand operational performance, identify service-quality gaps, evaluate revenue and workload patterns, and provide data-driven recommendations for improving customer experience and operational efficiency.
 
-Business Problem
+## Business Problem
 
 AstroSage's consultation operation generates a large volume of customer interactions across call and chat channels.
 
@@ -23,7 +23,7 @@ The business needs to understand:
 
 This project uses historical interaction data to answer these questions and convert the findings into practical business recommendations.
 
-Project Highlights
+## Project Highlights
 
 Total Customer Interactions: 28,027
 Total Sales: ₹214,065.90
@@ -36,7 +36,7 @@ Call Revenue: ₹168,520.62
 Chat Revenue: ₹45,494.68
 Duration-Rating Correlation: 0.0548
 
-Project Objectives
+## Project Objectives
 
 • Measure daily and monthly customer interaction volume
 • Identify high-demand periods
@@ -51,7 +51,7 @@ Project Objectives
 • Build an interactive Excel dashboard
 • Translate analytical findings into business recommendations
 
-Dataset
+## Dataset
 
 The dataset contains 28,027 customer interaction records and 35+ business attributes related to customer interactions, consultants/gurus, consultation types, revenue, operational costs, customer ratings, call and chat status, interaction duration, time-based activity, user and consultant identifiers, and website/platform information.
 
@@ -71,7 +71,7 @@ The available data covers December 1, 2023 through January 3, 2024.
 
 Note: January contains only a short portion of the available reporting period, so month-to-month comparisons should be interpreted carefully.
 
-Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 Before performing the analysis, the raw data was prepared in a dedicated Cleaned Data worksheet.
 
@@ -90,7 +90,7 @@ The cleaning process included:
 
 The cleaned dataset was then used for the analytical worksheets and dashboard.
 
-Tools & Technologies
+## Tools & Technologies
 
 Microsoft Excel was used for:
 • Pivot Tables
@@ -103,7 +103,7 @@ Microsoft Excel was used for:
 • Interactive dashboard
 • Slicers
 
-Spreadsheet functions included:
+## Spreadsheet functions included:
 SUM(), AVERAGE(), COUNT(), COUNTA(), COUNTUNIQUE(), FILTER(), SORT(), CORREL()
 
 Visualizations included:
@@ -115,11 +115,11 @@ Visualizations included:
 • KPI Cards
 • Interactive Slicers
 
-Analysis Workflow
+## Analysis Workflow
 
 Raw Data → Data Cleaning & Validation → Feature Preparation → Pivot Table Analysis → KPI Calculation → Trend & Performance Analysis → Data Visualization → Interactive Dashboard → Business Insights → Strategic Recommendations
 
-Analysis & Key Findings
+## Analysis & Key Findings
 
 1. Daily & Monthly Interaction Analysis
 
@@ -203,7 +203,9 @@ This represents a very weak positive linear relationship. Therefore, longer inte
 
 Some longer-duration groups showed higher average ratings, but this should be treated as an observed pattern rather than evidence that longer consultations directly cause higher satisfaction.
 
-Interactive Dashboard
+## Interactive Dashboard
+
+![AstroSage Call Center Dashboard](images/dashboard.png)
 
 The project includes an interactive AstroSage Call Center Performance Dashboard.
 
@@ -234,7 +236,7 @@ Interactive filters:
 
 The dashboard allows users to explore operational and customer-performance metrics across different dimensions.
 
-Key Business Insights
+## Key Business Insights
 
 • Call consultations are the primary revenue driver, contributing approximately 78.72% of total recorded revenue.
 • Customer demand is concentrated during specific hours, with the highest hourly interaction volume of 699 at 8 AM and strong demand generally occurring between 6 AM and 4 PM.
@@ -243,7 +245,7 @@ Key Business Insights
 • Failed, incomplete, busy, and no-answer interactions indicate potential operational improvement areas.
 • The duration-rating correlation of 0.0548 indicates that interaction duration alone is not a strong linear explanation for customer satisfaction.
 
-Business Recommendations
+## Business Recommendations
 
 Workforce Optimization
 • Align consultant schedules with historical demand patterns.
@@ -274,7 +276,7 @@ Technology Opportunities
 
 Technology adoption should be based on measurable operational requirements rather than technology adoption alone.
 
-Proposed ₹1 Crore Investment Allocation
+## Proposed ₹1 Crore Investment Allocation
 
 Technology Upgrades: ₹35 Lakhs
 Agent Training & Quality Improvement: ₹30 Lakhs
@@ -285,7 +287,7 @@ Total: ₹1 Crore
 
 The proposed allocation prioritizes technology, training, workforce capacity, customer experience, and analytics. Hiring should be validated against future workload and capacity requirements.
 
-Key Takeaways
+## Key Takeaways
 
 • Analysed 28,027 customer interaction records across 35+ business attributes.
 • Performed data cleaning and preparation before analysis.
@@ -300,7 +302,7 @@ Key Takeaways
 • Built an interactive Excel dashboard for monitoring volume, revenue, satisfaction, consultant performance, and operational metrics.
 • Converted analytical findings into recommendations for workforce planning, training, customer experience, and technology investment.
 
-Project Structure
+## Project Structure
 
 AstroSage-Call-Center-Analysis/
 │
@@ -318,7 +320,7 @@ AstroSage-Call-Center-Analysis/
 └── documentation/
     └── Final-Doc-submission(Astrosage).docx
 
-How to Explore the Project
+## How to Explore the Project
 
 1. Clone or download the repository.
 2. Open the Excel workbook.
@@ -329,7 +331,7 @@ How to Explore the Project
 7. Use the dashboard slicers to filter the data by different dimensions.
 8. Review the business insights and recommendations in this README.
 
-Skills Demonstrated
+## Skills Demonstrated
 
 • Data Cleaning
 • Data Preparation
@@ -349,6 +351,7 @@ Skills Demonstrated
 • Business Analysis
 • Data-Driven Decision Making
 • Business Recommendation
+
 
 Author:
 Anjali Kapse
